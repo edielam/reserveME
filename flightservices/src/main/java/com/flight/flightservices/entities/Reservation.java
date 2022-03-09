@@ -1,5 +1,8 @@
 package com.flight.flightservices.entities;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Reservation {
     private int id;
     private boolean checkedIn;

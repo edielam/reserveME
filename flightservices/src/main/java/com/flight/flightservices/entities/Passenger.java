@@ -1,5 +1,7 @@
 package com.flight.flightservices.entities;
 
+import javax.persistence.Entity;
+@Entity
 public class Passenger {
     private int id;
     private String firstname;
